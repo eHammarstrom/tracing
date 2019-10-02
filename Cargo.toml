@@ -8,6 +8,7 @@ members = [
     "tracing-tower",
     "tracing-log",
     "tracing-macros",
+    "tracing-proc-macros",
     "tracing-subscriber",
     "tracing-serde",
     "examples"
