@@ -59,11 +59,3 @@ pub fn traced_test(attr_args: TokenStream, input: TokenStream) -> TokenStream {
 
     TokenStream::from(output)
 }
-
-#[cfg(test)]
-mod tests {
-    #[test]
-    fn it_works() {
-        assert!(true);
-    }
-}
